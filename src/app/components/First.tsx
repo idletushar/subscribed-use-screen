@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function First() {
   return (
-    <div className="bg-red-100  ">
+    <div className="bg-red-100 hidden lg:block ">
       <div className=" px-4 max-w-screen-xl flex flex-wrap items-center justify-items-center justify-around mx-auto ">
         <div className=" ml-32">
           <p className=" text-3xl">welcome to</p>

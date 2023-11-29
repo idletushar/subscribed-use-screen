@@ -4,6 +4,7 @@ import First from "./components/First";
 import Second from "./components/Second";
 import Third from "./components/Third";
 import Forth from "./components/Forth";
+import Test from "./components/test";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Second />
       <Third />
       <Forth />
+      <Test />
     </main>
   );
 }
