@@ -15,8 +15,8 @@ function Third() {
           <div className="flex items-center justify-center justify-items-center">
             <p className=" font-bold">Offers For You</p>
           </div>
-          <div className="px-4 max-w-screen-xl flex md:flex-row flex-wrap items-center justify-items-center justify-center mt-5 ">
-            <div className="m-1">
+          <div className="px-4 max-w-screen-xl overflow-x-auto flex lg:justify-center mt-5 ">
+            <div className="m-1 flex-shrink-0">
               <Image
                 src="/rectange-card-1.svg"
                 height="200"
@@ -24,7 +24,7 @@ function Third() {
                 alt=""
               ></Image>
             </div>
-            <div className="m-1">
+            <div className="m-1 flex-shrink-0">
               <Image
                 src="/rectangle-card-2.svg"
                 height="400"
@@ -37,41 +37,22 @@ function Third() {
       </div>
 
       <div className="mt-20 mb-10">
+        {/* mobile view */}
         <div className="flex items-center justify-center justify-items-center">
           <p className=" font-bold">Offers For You</p>
         </div>
-        <div className="flex flex-wrap items-center justify-items-center justify-center mt-5">
-          <div className="m-1">
-            <Image
-              src="/square-card-1.svg"
-              height="220"
-              width="230"
-              alt=""
-            ></Image>
+        <div className="flex overflow-x-auto lg:justify-center p-4">
+          <div className="m-2 flex-shrink-0">
+            <Image src="/square-card-1.svg" height="220" width="230" alt="" />
           </div>
-          <div className="m-1">
-            <Image
-              src="/square-card-2.svg"
-              height="220"
-              width="230"
-              alt=""
-            ></Image>
+          <div className="m-2 flex-shrink-0">
+            <Image src="/square-card-2.svg" height="220" width="230" alt="" />
           </div>
-          <div className="m-1">
-            <Image
-              src="/square-card-3.svg"
-              height="220"
-              width="230"
-              alt=""
-            ></Image>
+          <div className="m-2 flex-shrink-0">
+            <Image src="/square-card-3.svg" height="220" width="230" alt="" />
           </div>
-          <div className="m-1">
-            <Image
-              src="/square-card-4.svg"
-              height="220"
-              width="230"
-              alt=""
-            ></Image>
+          <div className="m-2 flex-shrink-0">
+            <Image src="/square-card-4.svg" height="220" width="230" alt="" />
           </div>
         </div>
       </div>
