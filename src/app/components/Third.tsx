@@ -13,7 +13,7 @@ function Third() {
       <div className=" mt-20">
         <div>
           <div className="flex items-center justify-center justify-items-center">
-            <p className=" font-bold">Offers For You</p>
+            <p className="text-black font-bold">Offers For You</p>
           </div>
           <div className="px-4 max-w-screen-xl overflow-x-auto flex lg:justify-center mt-5 ">
             <div className="m-1 flex-shrink-0">
@@ -39,7 +39,7 @@ function Third() {
       <div className="mt-20 mb-10">
         {/* mobile view */}
         <div className="flex items-center justify-center justify-items-center">
-          <p className=" font-bold">Offers For You</p>
+          <p className="text-black font-bold">Offers For You</p>
         </div>
         <div className="flex overflow-x-auto lg:justify-center p-4">
           <div className="m-2 flex-shrink-0">
