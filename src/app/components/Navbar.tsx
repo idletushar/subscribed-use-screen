@@ -82,7 +82,7 @@ function Navbar() {
                 <Image src="/tv.svg" height="10" width="30" alt=""></Image>
                 <a
                   href="#"
-                  className="flex py-2 text-xs text-gray-400 hover:text-red-700  "
+                  className="flex py-2 text-sm text-black hover:text-red-700  "
                   aria-current="page"
                 >
                   Watch
@@ -90,18 +90,18 @@ function Navbar() {
               </div>
             </li>
             <li>
-              <div className=" place-items-center  mx-7">
+              <div className=" place-items-center mt-3 mx-7">
                 <Image src="/ticket.svg" height="15" width="30" alt=""></Image>
                 <a
                   href="#"
-                  className="flex py-2 text-xs text-gray-400 mt-2 hover:text-red-700  "
+                  className="flex py-2 text-sm text-black mt-2 hover:text-red-700  "
                 >
                   Book
                 </a>
               </div>
             </li>
             <li>
-              <div className="  mx-7">
+              <div className=" mt-3 mx-7">
                 <Image
                   src="/diamond.svg"
                   height="15"
@@ -110,18 +110,18 @@ function Navbar() {
                 ></Image>
                 <a
                   href="#"
-                  className="flex py-2 text-xs text-gray-400 hover:text-red-700  "
+                  className="flex py-2 text-sm text-black hover:text-red-700  "
                 >
                   Red
                 </a>
               </div>
             </li>
             <li>
-              <div className="  mx-7">
+              <div className=" mt-2 mx-7">
                 <Image src="/user.svg" height="9" width="25" alt=""></Image>
                 <a
                   href="#"
-                  className="flex py-2 text-xs text-gray-400 hover:text-red-700  "
+                  className="flex py-2 text-sm text-black hover:text-red-700  "
                 >
                   Profile
                 </a>

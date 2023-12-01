@@ -66,9 +66,15 @@ function Second() {
       </div>
 
       {/* Near expired */}
-      <div className="hidden px-4 max-w-screen-xl flex flex-wrap items-center justify-items-center justify-around mx-auto pt-12 pb-10 ">
-        <Image src="/icon.svg" height="90" width="100" alt=""></Image>
-        <div className=" lg:border-r-2 pr-12">
+      <div className=" px-4 max-w-screen-xl flex flex-wrap items-center justify-items-center justify-around mx-auto pt-12 pb-10 ">
+        <Image
+          className="hidden md:block"
+          src="/icon.svg"
+          height="90"
+          width="100"
+          alt=""
+        ></Image>
+        <div className=" text-center lg:border-r-2 pr-12">
           <p className="text-white text-2xl">Expires in</p>
           <p className="text-white text-6xl font-extrabold">45 DAYS </p>
           <div>
@@ -82,11 +88,12 @@ function Second() {
             </div>
           </div>
         </div>
+
         <div>
-          <div className="flex">
+          <div className="flex text-center">
             <div className="m-1">
               <p className="text-white">
-                You Saved <br />{" "}
+                You Saved <br />
                 <span className=" text-4xl font-extrabold">60%</span>
               </p>
             </div>
@@ -96,8 +103,9 @@ function Second() {
               </p>
             </div>
           </div>
+
           <div className="flex overflow-x-auto">
-            <div className="bg-white rounded-md p-3 mt-3 mx-2 min-w-40 flex-shrink-0">
+            <div className="bg-white rounded-md p-3 mt-3 mx-2 min-w-30 flex-shrink-0">
               <Image
                 src="/airplane.svg"
                 height="30"
@@ -109,7 +117,7 @@ function Second() {
               <p className="text-gray-400">You have saved</p>
               <p className="text-gray-400">till now.</p>
             </div>
-            <div className="bg-white rounded-md p-3 mt-3 mx-2 min-w-40 flex-shrink-0">
+            <div className="bg-white rounded-md p-3 mt-3 mx-2 min-w-30 flex-shrink-0">
               <Image
                 src="/hotel.svg"
                 height="30"
@@ -121,7 +129,7 @@ function Second() {
               <p className="text-gray-400">You have saved</p>
               <p className="text-gray-400">till now.</p>
             </div>
-            <div className="bg-white rounded-md p-3 mt-3 mx-2 min-w-40 flex-shrink-0">
+            <div className="bg-white rounded-md p-3 mt-3 mx-2 min-w-30 flex-shrink-0">
               <Image
                 src="/holiday.svg"
                 height="30"
@@ -152,19 +160,18 @@ function Second() {
             </div>
           </div>
         </div>
-        {/* <Image
-          className="hidden lg:block"
-          src="/icon.svg"
-          height="90"
-          width="200"
-          alt=""
-        ></Image> */}
       </div>
 
       {/* Expired */}
-      <div className="hidden px-4 max-w-screen-xl flex flex-wrap items-center justify-items-center justify-around mx-auto pt-12 pb-10 ">
-        <Image src="/icon.svg" height="90" width="100" alt=""></Image>
-        <div className=" lg:border-r-2 pr-12">
+      <div className=" px-4 max-w-screen-xl flex flex-wrap items-center justify-items-center justify-around mx-auto pt-12 pb-10 ">
+        <Image
+          className="hidden md:block"
+          src="/icon.svg"
+          height="90"
+          width="100"
+          alt=""
+        ></Image>
+        <div className=" text-center lg:border-r-2 pr-12">
           <p className="text-white text-2xl">Your plan has</p>
           <p className="text-white text-6xl font-extrabold">EXPIRED</p>
           <div>
@@ -231,13 +238,6 @@ function Second() {
             </div>
           </div>
         </div>
-        {/* <Image
-          className="hidden lg:block"
-          src="/icon.svg"
-          height="90"
-          width="200"
-          alt=""
-        ></Image> */}
       </div>
     </div>
   );
