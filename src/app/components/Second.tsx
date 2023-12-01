@@ -57,7 +57,7 @@ function Second() {
                 alt=""
                 className="mb-2"
               ></Image>
-              <p>Upto 30% off on holidays</p>
+              <p className="text-black">Upto 30% off on holidays</p>
               <p className="text-gray-400">You have saved</p>
               <p className="text-gray-400">till now.</p>
             </div>
